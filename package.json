@@ -1,9 +1,13 @@
 {
   "name": "cssgenie",
   "displayName": "CSSGenie",
-  "publisher": "Sudhanshu",
+  "publisher": "sudhanshuku01",
+  "icon": "images/icon.jpg",
+  "repository": {
+    "url": "https://github.com/sudhanshuku01/CSSGenie"
+  },
   "description": "A VS Code extension that extracts class names from JSX code and generates a corresponding CSS file.",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -36,7 +40,6 @@
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
   },
-  "icon": "images/icon.png",
   "dependencies": {
     "cssgenie": "file:"
   }
